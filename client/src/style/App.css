@@ -1,0 +1,18 @@
+
+
+
+.h1{
+  text-align: center;
+  color: #113842;
+}
+
+
+
+.vl {
+  margin-top : 2rem;
+  margin-left: 0;
+  border-left: 1px Dashed rgb(135, 138, 135);
+  height: 100%;
+}
+
+
