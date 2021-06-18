@@ -1,0 +1,28 @@
+{
+  "name": "todolist-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    
+    "start": "concurrently \"npm run server\" \"cd ../client && npm start\"",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Projects-AWR/ToDoList-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Projects-AWR/ToDoList-react/issues"
+  },
+  "homepage": "https://github.com/Projects-AWR/ToDoList-react#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.14"
+  }
+}
